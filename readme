@@ -1,5 +1,0 @@
----数据结构
-   1.java队列——queue详细解析
-    Queue：先进先出(FIFO)的数据结构。与List、Set同一级别，都是继承了Collection接口。
-
-
