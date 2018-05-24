@@ -49,5 +49,9 @@ reference5: https://blog.csdn.net/chinayuan/article/details/3345559(读了1/3)
     - ArrayList基于数组实现，可以通过下标索引直接查找到指定位置的元素，因此查找效率高，但每次插入或删除元素，就要大量地移动元素，插入删除元素的效率低。
     - 在查找给定元素索引值等的方法中，源码都将该元素的值分为null和不为null两种情况处理，ArrayList中允许元素为null
 > reference1: https://blog.csdn.net/zcw4237256/article/details/78266117  
-reference2: https://blog.csdn.net/wz249863091/article/details/52853360
+reference2: https://blog.csdn.net/wz249863091/article/details/52853360  
+  - .clear()
+    - .clear会清楚掉list中对象的引用，让这些对象变为垃圾。但是list本身在jvm中的地址不会被清除。
+  - .size()返回的是list中元素的个数，和其能容纳的元素个数是两个不同的概念。.clear会empty list，使其size=0，但是list能容纳的元素个数应该是.clear前的个数。
 
+5. <a href="https://baike.xsoftlab.net/view/250.html">Map</a>
