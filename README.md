@@ -55,3 +55,4 @@ reference2: https://blog.csdn.net/wz249863091/article/details/52853360
   - .size()返回的是list中元素的个数，和其能容纳的元素个数是两个不同的概念。.clear会empty list，使其size=0，但是list能容纳的元素个数应该是.clear前的个数。
 
 5. <a href="https://baike.xsoftlab.net/view/250.html">Map</a>
+    
