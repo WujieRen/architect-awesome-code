@@ -6,6 +6,8 @@ import java.util.Locale;
 
 /**
  * Created by renwujie on 2018/05/25 at 18:13
+ *
+ * reference: https://baike.xsoftlab.net/view/250.html#paragraph_4
  */
 public class TestStringSort {
 

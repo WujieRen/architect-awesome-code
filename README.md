@@ -55,4 +55,46 @@ reference2: https://blog.csdn.net/wz249863091/article/details/52853360
   - .size()返回的是list中元素的个数，和其能容纳的元素个数是两个不同的概念。.clear会empty list，使其size=0，但是list能容纳的元素个数应该是.clear前的个数。
 
 5. <a href="https://baike.xsoftlab.net/view/250.html">Map</a>
-    
+  - Map类型
+    - 通用Map
+      - 用于在应用程序中管理映射，通常在java.util程序包中实现。
+      - HashMap、HashTable、Properties、LinkedHashMap、IdentityHashMap、TreeMap、WeakHashMap、ConcurrentHashMap。
+    - 专用Map
+      - 通常不必亲自创建此类Map，而是通过某些其他类对其进行访问。
+      - java.util.jar.Attributes、javax.print.attribute.standard.PrinterStateReasons、java.security.Provider、java.awt.RenderingHints、javax.swing.UIDefaults。
+    - 执行实现map
+      - 一个用于可以令用户自定义实现自己的Map类的抽象类
+      - AbstractMap
+  - 常用类型及区别
+    - HashMap
+      - 最常用。它根据键的hashCode值存储数据，根据键可以直接获取它的值。具有很快的访问速度。HashMap最多只允许一条记录的key为NULL（多条会覆盖），允许多条value为NULL。非同步的。
+    - HashTable
+      - 与HashMap类似，不同的是：key和value的值均不允许为NULL；它支持线程的同步——即在任一时刻只有一个线程能写HashTablem，因此也导致了HashTable在写入时较慢。
+    - TreeMap
+      - 能够把它保存的记录根据键(key)排序，默认是按升序排序。也可以指定排序比较器。当用Iterator遍历TreeMap时，得到的记录是排过序的。TreeMap不允许key的值为NULL。非同步的。
+    - LinkedHashMap
+      - 保存了记录的插入顺序，在用Iterator遍历LinkedHashMap时，先得到的记录肯定是先插入的。遍历速度会比HashMaP慢（因为要寻址）。key和value均允许为空。非同步。
+  - 增删改查
+    - 插入修改：.put()
+    - 删除：.remove()
+    - 获取：.get()
+    - 清空：.clear()
+  - 读取性能比较
+  ![](imgs/4.png)
+  - 遍历方式
+    - 1.增强for循环遍历
+    - 2.迭代器遍历
+    - 3.遍历性能比较
+      - 增强for循环使用方便，但性能较差。不适合处理大规模数据。
+      - 迭代器的遍历速度要比增强for循环块很多，是增强for循环的2倍左右。
+      - 使用entrySet遍历的速度要比keySet快很多，是keySet的1.5倍左右。
+      > Iterator > foreach  
+      entreSet > keySet
+  - Map排序
+    - 按照key排序
+      - HashMap、HashTable、LinkedHashMap排序推荐使用Collections.sort(list, new Comparator())自定义排序器。
+      - TreeMap推荐通过new TreeMap(new Comparator())方式。
+    - 按照value排序
+      - 通用Collections.sort(list, new Comparator())自定义排序器实现。
+  - 常用API
+  ![常用API](imgs/5.png)
