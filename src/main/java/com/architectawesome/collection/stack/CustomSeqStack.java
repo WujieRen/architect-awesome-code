@@ -81,6 +81,8 @@ public class CustomSeqStack<T> extends Stack<T> implements Serializable {
             throw new EmptyStackException();
         size--;
         return array[top--];
+        //注意上下两者的不同。
+        //return array[--top];
     }
 
     /**
