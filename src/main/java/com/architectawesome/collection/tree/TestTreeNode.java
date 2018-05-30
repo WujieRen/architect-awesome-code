@@ -4,7 +4,7 @@ package com.architectawesome.collection.tree;
  * Created by renwujie on 2018/05/30 at 19:46
  */
 public class TestTreeNode {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         TreeNode tree = new TreeNode();
         tree.insert(3, 3.666);
         tree.insert(1, 1.111);
@@ -14,7 +14,7 @@ public class TestTreeNode {
         tree.insert(6, 6.681);
 
         TreeNode treeNode = tree.find(6);
-        if(treeNode == null) {
+        if (treeNode == null) {
             System.out.println("not exists!");
         } else {
             treeNode.showNode();
@@ -25,8 +25,5 @@ public class TestTreeNode {
         temp[0].showNode();
         temp[1].showNode();
     }
-
-
-
 
 }

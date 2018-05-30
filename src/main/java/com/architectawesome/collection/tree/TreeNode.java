@@ -8,11 +8,11 @@ package com.architectawesome.collection.tree;
  * A left reference and a right reference.
  */
 public class TreeNode {
-    public int iData;
-    public double dData;
-    public TreeNode leftNode;
-    public TreeNode rightNode;
-    public TreeNode root;
+    private int iData;
+    private double dData;
+    private TreeNode leftNode;
+    private TreeNode rightNode;
+    private TreeNode root;
 
     /**
      * show tree node info.
@@ -59,19 +59,20 @@ public class TreeNode {
     /**
      * 在tree中寻找关键字
      * 返回一个node
+     *
      * @param key searchKey
      * @return findKey
      */
     public TreeNode find(int key) {
         TreeNode currentNode = root;
-        while(currentNode.iData != key) {
-            if(currentNode.iData < key) {
+        while (currentNode.iData != key) {
+            if (currentNode.iData < key) {
                 currentNode = currentNode.rightNode;
             } else {
                 currentNode = currentNode.leftNode;
             }
 
-            if(currentNode == null) {
+            if (currentNode == null) {
                 return null;
             }
         }
@@ -81,6 +82,7 @@ public class TreeNode {
 
     /**
      * 获取最值
+     *
      * @return a treeNode array
      */
     public TreeNode[] minAndMaxValue() {
@@ -88,14 +90,14 @@ public class TreeNode {
         TreeNode maxNode = null;
         TreeNode[] result = new TreeNode[2];
         TreeNode currentNode = root;//从树顶开始搜索
-        while(currentNode != null) {
+        while (currentNode != null) {
             minNode = currentNode;
             currentNode = currentNode.leftNode;
         }
         result[0] = minNode;
 
         currentNode = root;
-        while(currentNode != null) {
+        while (currentNode != null) {
             maxNode = currentNode;
             currentNode = currentNode.rightNode;
         }
