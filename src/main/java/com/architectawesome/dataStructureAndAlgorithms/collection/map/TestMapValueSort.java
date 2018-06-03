@@ -1,4 +1,4 @@
-package com.architectawesome.collection.map;
+package com.architectawesome.dataStructureAndAlgorithms.collection.map;
 
 import java.util.*;
 

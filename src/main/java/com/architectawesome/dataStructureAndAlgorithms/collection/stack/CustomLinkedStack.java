@@ -1,4 +1,4 @@
-package com.architectawesome.collection.stack;
+package com.architectawesome.dataStructureAndAlgorithms.collection.stack;
 
 import java.io.Serializable;
 import java.util.EmptyStackException;

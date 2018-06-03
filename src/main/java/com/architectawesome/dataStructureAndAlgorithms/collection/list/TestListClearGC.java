@@ -1,4 +1,4 @@
-package com.architectawesome.collection.list;
+package com.architectawesome.dataStructureAndAlgorithms.collection.list;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.architectawesome.collection.stack;
+package com.architectawesome.dataStructureAndAlgorithms.collection.stack;
 
 /**
  * Created by renwujie on 2018/05/28 at 21:32

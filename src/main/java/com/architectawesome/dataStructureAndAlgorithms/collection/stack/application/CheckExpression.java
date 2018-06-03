@@ -1,6 +1,6 @@
-package com.architectawesome.collection.stack.application;
+package com.architectawesome.dataStructureAndAlgorithms.collection.stack.application;
 
-import com.architectawesome.collection.stack.CustomLinkedStack;
+import com.architectawesome.dataStructureAndAlgorithms.collection.stack.CustomLinkedStack;
 
 /**
  * Created by renwujie on 2018/05/28 at 22:56

@@ -1,4 +1,4 @@
-package com.architectawesome.collection.tree;
+package com.architectawesome.dataStructureAndAlgorithms.collection.tree;
 
 /**
  * Created by renwujie on 2018/05/30 at 19:46

@@ -1,4 +1,4 @@
-package com.architectawesome.collection.set;
+package com.architectawesome.dataStructureAndAlgorithms.collection.set;
 
 import java.util.HashSet;
 import java.util.Iterator;

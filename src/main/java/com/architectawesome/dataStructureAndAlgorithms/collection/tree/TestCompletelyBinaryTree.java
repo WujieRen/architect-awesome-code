@@ -1,4 +1,4 @@
-package com.architectawesome.collection.tree;
+package com.architectawesome.dataStructureAndAlgorithms.collection.tree;
 
 import java.util.Scanner;
 
