@@ -42,5 +42,4 @@ public class Java8Lambda {
     interface GreetingService {
         void sayMessage(String message);
     }
-
 }

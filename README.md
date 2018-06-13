@@ -209,7 +209,15 @@ reference2: https://blog.csdn.net/wz249863091/article/details/52853360
       - 旋转问题
         - 没懂...
       - 旋转操作
-      - 
+  - <a href="http://www.cnblogs.com/yangecnu/p/Introduce-Red-Black-Tree.html">红黑树</a> 
+    - 红黑树满足：
+      - 1.节点是红色或者黑色
+      - 2.根节点是黑色
+      - 3.每个节点（NIL或空节点）是黑色
+      - 4.每个红色节点的两个子节点都是黑色的，即不存在两个连续的红色节点
+      - 5.从任一节点到到其没节叶节点所有路径的
+      
+    > reference1: https://blog.csdn.net/sun_tttt/article/details/65445754  
     
     
     

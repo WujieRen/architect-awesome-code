@@ -1,0 +1,2 @@
+className = com.architectawesome.cornerstone.reflection.Person
+methodName = show1
