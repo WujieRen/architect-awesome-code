@@ -24,7 +24,25 @@ public class GetClass {
 
     }
 }
-class Person{
+
+class Things{
+    private String color;
+    public String shape;
+
+    public Things() {
+    }
+
+    public Things(String color, String shape) {
+        this.color = color;
+        this.shape = shape;
+    }
+
+    public String exists() {
+        return "yes";
+    }
+}
+
+class Person extends Things {
 
     public String name;
     protected int age;

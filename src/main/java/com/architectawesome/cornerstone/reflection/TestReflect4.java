@@ -15,7 +15,7 @@ public class TestReflect4 {
         //获取MethodClass的add()
         Method method = c.getMethod("add", String.class, int.class);
         System.out.println(method);
-       //getMethods()获取所有方法
+        //getMethods()获取所有方法
         System.out.println("getMethods获取的方法：");
         for(Method m : methods) {
             System.out.println(m);
