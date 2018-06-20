@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class TestCompletelyBinaryTree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while (true) {
+        /*while (true) {
             int h = sc.nextInt();
             int monkey = sc.nextInt();
             if (h == 0 && monkey == 0) break;
@@ -25,6 +25,29 @@ public class TestCompletelyBinaryTree {
                 }
             }
             System.out.println(k);
+        }*/
+        /**
+         * 下面这个是王垠说的尽量不用break和continue的改版，下面这个逻辑的确更清晰，代码易读性也更高。
+         */
+        while (true) {
+            int h = sc.nextInt();
+            int monkey = sc.nextInt();
+
+            if (h != 0 || monkey != 0) {
+                int k = 1;
+                for (int i = 0; i < h - 1; ++i) {
+                    if (monkey % 2 == 0) {
+                        k = k * 2 + 1;
+                        monkey /= 2;
+                    } else {
+                        k *= 2;
+                        monkey = (monkey + 1) / 2;
+                    }
+                }
+                System.out.println(k);
+            } else {
+                return;
+            }
         }
     }
 }

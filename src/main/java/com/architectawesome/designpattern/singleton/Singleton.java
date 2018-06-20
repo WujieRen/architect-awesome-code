@@ -1,4 +1,4 @@
-package com.architectawesome.designmode.singleton;
+package com.architectawesome.designpattern.singleton;
 
 /**
  * Created by renwujie on 2018/06/16 at 22:39

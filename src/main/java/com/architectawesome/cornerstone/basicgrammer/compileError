@@ -1,0 +1,13 @@
+package com.architectawesome.cornerstone.basicgrammer;
+
+/**
+ * Created by renwujie on 2018/06/20 at 9:14
+ */
+public class compileError {
+    public static void main(String[] args){
+        // \u00A0 is a new line
+        System.out.println("test specific char");
+        // look inside c:\users
+        //System.out.println("c:\users会产生语法错误");
+    }
+}
