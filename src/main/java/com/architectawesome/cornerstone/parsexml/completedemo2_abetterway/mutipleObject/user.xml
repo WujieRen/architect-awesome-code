@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<User>
+    <userId>1</userId>
+    <userName>Steven</userName>
+    <password>@sun123</password>
+    <birthday>2018-07-03T10:44:54.882+08:00</birthday>
+    <money>1000.0</money>
+    <computers>
+        <brandName>asus</brandName>
+        <price>4455.5</price>
+        <productDate>2018-07-03T10:44:54.883+08:00</productDate>
+        <serialNumber>xxxMMeedd</serialNumber>
+    </computers>
+    <computers>
+
+
+        <productDate>2018-07-03T10:44:54.883+08:00</productDate>
+        <price>4999.0</price>
+        <serialNumber>lenvoXx</serialNumber>
+        <brandName>lenvo</brandName>
+    </computers>
+</User>

@@ -1,8 +1,5 @@
 import java.text.Collator;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Locale;
+import java.util.*;
 
 /**
  * Created by renwujie on 2018/05/25 at 18:13
@@ -15,7 +12,8 @@ public class TestStringSort {
         //test1();
         //test2();
         //test3();
-        test4();
+        //test4();
+        System.out.println(new Date());
     }
     static void test1(){
         ArrayList<String> list = new ArrayList<String>();

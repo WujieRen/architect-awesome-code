@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <!-- ISBN:国际标准书号由13位数字组成。前三位数字代表图书，中间的9个数字分为三组，分别表示组号、出版社号和书序号，最后一个数字是校验码。 -->
+    <book isbn="9787121025389">
+        <name>JAVA面向对象编程</name>
+        <author>孙卫琴</author>
+        <publishing>电子工业出版社</publishing>
+        <pubdate>2006-07-01</pubdate>
+        <price>50.60</price>
+    </book>
+    <book isbn="9787111349662">
+        <name>深入理解Java虚拟机：JVM高级特性与最佳实践</name>
+        <author>周志明</author>
+        <publishing>机械工业出版社</publishing>
+        <pubdate>2011-07-01</pubdate>
+        <price>46.20</price>
+    </book>
+    <book isbn="9787508338408">
+        <name>Java网络编程（第3版）</name>
+        <author>（英）哈诺德 著 朱涛江，林剑 译</author>
+        <publishing>中国电力出版社</publishing>
+        <pubdate>2005-11-01</pubdate>
+        <price>63.80</price>
+    </book>
+    <book isbn="9787508379661">
+        <name>Java经典实例（第2版）</name>
+        <author>（美）达尔文（Darwin，F.I） 著 关丽荣，张晓坤 译</author>
+        <publishing>中国电力出版社</publishing>
+        <pubdate>2009-02-01</pubdate>
+        <price>72.10</price>
+    </book>
+    <book isbn="9787111213826">
+        <name>Java编程思想（第4版）</name>
+        <author>（美）埃克尔 著 陈昊鹏 译</author>
+        <publishing>机械工业出版社</publishing>
+        <pubdate>2007-06-01</pubdate>
+        <price>74.50</price>
+    </book>
+    <book isbn="9787508344980">
+        <name>Head First Java（中文版）（第2版）</name>
+        <author>（美）塞若（Sierra，K.），（美）贝茨（Bates，B.） 著 O’Reilly Taiwan公司 译 张然，等 编</author>
+        <publishing>中国电力出版社</publishing>
+        <pubdate>2007-02-01</pubdate>
+        <price>55.20</price>
+    </book>
+    <book isbn="9787111231837">
+        <name>数据结构与算法分析：Java语言描述（第2版）</name>
+        <author>（美）韦斯（Weiss，M.A.） 著 冯舜玺 译</author>
+        <publishing>机械工业出版社</publishing>
+        <pubdate>2009-01-01</pubdate>
+        <price>41.20</price>
+    </book>
+</books>

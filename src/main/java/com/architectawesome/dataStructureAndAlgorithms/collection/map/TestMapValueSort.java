@@ -15,7 +15,7 @@ public class TestMapValueSort {
         map.put("a", "a");
 
         //通过ArrayList构造函数把map.entrySet()转换成list
-        List<Map.Entry<String, String>> list = new ArrayList<>(map.entrySet());
+        List<Map.Entry<String, String>> list = new ArrayList<Map.Entry<String, String>>(map.entrySet());
        /* list.sort(new Comparator<Map.Entry<String, String>>() {
             @Override
             public int compare(Map.Entry<String, String> mapping1, Map.Entry<String, String> mapping2) {

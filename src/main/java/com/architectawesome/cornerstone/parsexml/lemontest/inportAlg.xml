@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algrithm>
+    <name>算法名称,算法名称唯一</name>
+    <displayName>算法显示名称,中文名称</displayName>
+    <program>算法包类型，python、R、jar</program>
+    <description>描述内容</description>
+    <maxParent>5</maxParent>
+    <icon>1.png</icon>
+    <inputPropertys>
+      <property>
+        <name>参数名</name>
+        <displayName>显示名称</displayName>
+        <dataType>String</dataType>
+        <value>默认值</value>
+        <valueDescription>参数值描述</valueDescription>
+        <valueInputDesc>输入说明</valueInputDesc>
+        <valueMaxLength>100</valueMaxLength>
+        <valueMinLength>0</valueMinLength>
+        <isDefault>是否默认,0默认，1不默认</isDefault>
+        <isEdit>是否可编辑,0可编辑，1不可编辑</isEdit>
+        <exdPropertyName>互斥参数名称</exdPropertyName>
+        <exdPropertyValue>互斥参数值</exdPropertyValue>
+        <relationPropertyName>关联参数名称</relationPropertyName>
+        <relationPropertyValue>关联参数值</relationPropertyValue>
+        <valueFrom>值来源，分为来源于界面用户定义：from_view，来源于算法：from_alg</valueFrom>
+          <view>
+              <viewType>
+                  视图控件类型，控件类型为空表示为上一个节点输入,否则为配置参数需动态渲染配置表单,控件类型为INPUT、SELECT、RANGE、SELECTTREE、BUTTON、TEXTAREA
+              </viewType>
+              <options>
+                  <option>
+                      <label>标签1</label>
+                      <value>1</value>
+                  </option>
+                  <option>
+                      <label>标签2</label>
+                      <value>2</value>
+                  </option>
+                  <multiple>是否多选，0否1是</multiple>
+                  <step>步长，类型为RANGE类型时有效</step>
+                  <viewGroupId>分组ID</viewGroupId>
+              </options>
+          </view>
+      </property>
+    </inputPropertys>
+    <outputPropertys>
+  	    <property>
+          <outputName>输出参数名称</outputName>
+          <outputDesc>输出参数描述</outputDesc>
+          <outputPropertyRoles>
+            <role>view_data_table(界面展示表格数据)</role>
+            <role>view_data_line(界面展示折线图数据)</role>
+            <role>输出参数角色</role>
+          </outputPropertyRoles>
+        </property>
+
+        <property>
+            <outputName>输出参数名称2</outputName>
+            <outputDesc>输出参数描述2</outputDesc>
+            <outputPropertyRoles>
+                <role>view_data_table(界面展示表格数据)</role>
+                <role>view_data_line(界面展示折线图数据)</role>
+            </outputPropertyRoles>
+        </property>
+    </outputPropertys>
+    <relationAlgs>
+        <relationAlg algName="关联算法名称" >
+            <outputAlgPropertyName>关联算法名称输出数据名称</outputAlgPropertyName>
+            <inputAlgPropertyName>输入到当前算法的接收参数名称</inputAlgPropertyName>
+        </relationAlg>
+        <relationAlg algName="关联算法名称2" >
+            <outputAlgPropertyName>关联算法名称输出数据名称</outputAlgPropertyName>
+            <inputAlgPropertyName>输入到当前算法的接收参数名称</inputAlgPropertyName>
+        </relationAlg>
+    </relationAlgs>
+</algrithm>

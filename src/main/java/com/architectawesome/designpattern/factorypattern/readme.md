@@ -8,7 +8,7 @@
 
 # 关系
 1. 同类对象抽象出抽象接口。
-2. 工厂类创建具体子类，并返回抽象接口类型对象。具体子类创建过程对调用者透明。
+2. 工厂类创建具体子类，返回类型抽象接口类型。具体子类创建过程对调用者透明。
 3. 调用者直接和工厂打交道。    
 
 ![](https://github.com/WujieRen/architect-awesome-code/raw/master/imgs/designpattern/factorypattern/1.PNG)
