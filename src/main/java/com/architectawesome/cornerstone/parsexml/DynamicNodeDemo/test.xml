@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <errorCode>0</errorCode>
+    <errorMessage>成功</errorMessage>
+    <data>
+        <d1>
+            <d11>A</d11>
+            <d12>B</d12>
+        </d1>
+        <d1>
+            <d11>A</d11>
+            <d12>B</d12>
+        </d1>
+        <d2 status="1">
+            <d21>D</d21>
+            <d22>E</d22>
+        </d2>
+    </data>
+</response>
