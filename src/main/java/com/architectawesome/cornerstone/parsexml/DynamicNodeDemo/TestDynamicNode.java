@@ -13,7 +13,7 @@ public class TestDynamicNode {
     public static void main(String[] args) throws JAXBException {
         Object xmlObject = null;
         try {
-            JAXBContext context = JAXBContext.newInstance(Response.class, D1.class, D2.class);
+            JAXBContext context = JAXBContext.newInstance(Response.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
             FileReader fr = null;
             try {
